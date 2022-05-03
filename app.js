@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var {student}=require("./model.js")
 var mongoose=require("mongoose")
-mongoose.connect('mongodb+srv://nagaraju:Thandus@cluster0.vwm7k.mongodb.net/users?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://nagaraju:abc@cluster0.vwm7k.mongodb.net/users?retryWrites=true&w=majority');
 mongoose.Promise = global.Promise;
 var db=mongoose.connection
 db.on("error", error => {
